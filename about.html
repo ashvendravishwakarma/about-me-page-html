@@ -4,49 +4,69 @@
         <title>my first web site</title>
     </head>
     <body>
-        <h1>My Profile</h1>
-        <nav>
-            <a href="index.html">home  </a>| 
-            <a href="about.html">About  </a>| 
-            <a href="#skills">skills  </a>| 
-            <a href="https://github.com/" target="_blank">github</a>
-        </nav>
-         <h2>About Me</h2>
-        <h3>Hi, I am Ashvendra Vishwakarma</h3>
-        <p>I am a student of <mark> AIML </mark>course at <b>JNCT College, Bhopal</b> </p>
-        <br>
-        <hr>
-        <h2>My Journey</h2>
-        <p>I am passionate about technology and i love learning new things.<br>
-        My goal is to become a skilled AI/ML engineer and build something<br>
-        meaningful for the future.</p>
-        <p>I am from Bina .I enjoy coding ,<b>reading </b>and exploring new ideas.</p>
-        <hr>
-        <h2>My Skills</h2>
-        <p>1. python <br>
-        2. machine learning<br>
-        3.  web development(HTML,CSS,Javascript)<br>
-        4. problem solving</p>
-        <hr>
-        <h2>My Favourite Quote</h2>
-        <p><i>"The only way to do great work is to love what you do ."</i><br>
-        --Steve Jobs</p>
-        <hr>
-        <h2>Some Useful Information</h2>
-        <p>1.Water is <b>H<sub>2</sub>O</b> and the square of 2 is index <b>2<sup>2</sup>.</b><br>
-        2. HTML stands for<mark>HyperText Markup Language</mark>.<br>
-        3. This text is <del>deleted</del>and this is <ins>Inserted</ins>. <br>
-        4. You can also <mark>Mark</mark> important text like this.</p>
-        <hr>
-        <h2>Disclaimer</h2>
-        <p> This page is created for learning purpose only. </p>
-        <hr>
-        <h2 id="skills">                             Go to Skills</h2>
-        <nav>
-            <a href="index.html">home  </a>| 
-            <a href="about.html">About  </a>| 
-            <a href="#skills">skills  </a>| 
-            <a href="https://github.com/" target="_blank">github</a>
-        </nav>
+        <form>
+            <lable>Name :</lable>
+            <input type="text" name="username" placeholder="Enter your name">
+            <br>
+            <br>
+            <lable>Email :</lable>
+            <input type="email" name="email" placeholder="Enter your email">
+
+            <br>
+            <br>
+            <lable>Passward :</lable>
+            <input type="password" placeholder="Enter passward">
+            <br>
+            <br>
+            <labal>Age :</labal>
+            <input type="number">
+            <br>
+            <br>
+            <label >Gender :</label>
+            <br>
+            <br>
+            <input type="radio" name="gender" value="male">
+            <label>Male</label>
+            <input type="radio" name="gender" value="Female">
+            <label>Female</iabel>
+            <br><br>
+            <label>Skills :</label>
+            <br>
+            <br>
+            <input type="checkbox" name="skill" value="Python">
+            <label>Python</label>
+            <input type="checkbox" name="skill" value="HTML">
+            <label>HTML</label>
+            <input type="checkbox" name="skill" value="SQL">
+            <label>SQL</label>
+            <br>
+            <br>
+
+            <label for="course">Course :</label>
+            <select id="course" name="course">
+                <option value=" ">Select course</option>
+                <option value="aiml">AIML</option>
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+            </select>
+            <br>
+            <br>
+            <h4>About Yourself :</h4>
+            <label for="massage"></label>
+            <textarea id="massage"
+                      name="massage"
+                      rows="5"
+                      cols="30">
+                    </textarea>
+            <br>
+            <br>
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume">
+            <br>
+            <br>
+     
+            <button type="submit" placeholder="submit">submit</button>
+            <button type="reset" placeholder="reset">reset</button>
+        </form>
     </body>
 </html>
