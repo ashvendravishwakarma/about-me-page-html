@@ -10,13 +10,16 @@
 
 <body>
     <header>
-        <h1>Ashvendra Restaurant</h1>
+        <h1><mark><b>Sumit Restaurant</b></mark></h1>
         <h3>Fresh Food, Happy Hearts</h3>
-        <p>Welcome to Ashvendra Restaurant, where delicious food, warm hospitality, and a comfortable atmosphere come together. We serve fresh and flavorful dishes made with quality ingredients for families, friends, and food lovers.</p>
+        <p>Welcome to Sumit Restaurant, where delicious food, warm hospitality, and a comfortable atmosphere come
+            together. We serve fresh and flavorful dishes made with quality ingredients for families, friends, and food
+            lovers.</p>
         <nav>
             <a href="#home">Home</a>
             <a href="#menu">Menu</a>
             <a href="#about">About</a>
+            <a href="#offers">Offers</a>
             <a href="#gallery">Gallery</a>
             <a href="#reservation">Reservation</a>
             <a href="#contact">Contact</a>
@@ -25,15 +28,154 @@
     <main>
         <section id="home">
             <h2>Delicious Food, Made Fresh</h2>
-            <p><b>Enjoy delicious, freshly prepared food made with quality ingredients in a warm and welcoming atmosphere.</b></p>
-            <img src="C:\Users\acs\Downloads\Modern Luxury Cafe Design Ideas.jpeg" alt="Restaurant image" height="300" width="300">
+            <p><b>Enjoy delicious, freshly prepared food made with quality ingredients in a warm and welcoming
+                    atmosphere.</b></p>
+            <img src="C:\Users\acs\Downloads\Modern Luxury Cafe Design Ideas.jpeg" alt="Restaurant image" height="300"
+                width="300">
 
         </section>
-        <section id="Menu">
-               
+        <section id="menu">
+            <h2>Our Menu</h2>
+
+            <h3>Starters</h3>
+            <ul>
+                <li>Paneer Tikka - Grilled paneer with spices - ₹180</li>
+                <li>Veg Spring Roll - Crispy rolls with vegetables - ₹150</li>
+                <li>French Fries - Crispy golden potato fries - ₹120</li>
+            </ul>
+
+            <h3>Main Course</h3>
+            <ul>
+                <li>Paneer Butter Masala - Creamy paneer curry - ₹250</li>
+                <li>Veg Biryani - Flavorful rice with vegetables - ₹220</li>
+                <li>Dal Tadka - Yellow lentils with Indian spices - ₹180</li>
+            </ul>
+
+            <h3>Desserts</h3>
+            <ul>
+                <li>Gulab Jamun - Soft sweet dumplings - ₹100</li>
+                <li>Ice Cream - Creamy vanilla ice cream - ₹90</li>
+                <li>Chocolate Brownie - Warm chocolate brownie - ₹130</li>
+            </ul>
+
+            <h3>Beverages</h3>
+            <ul>
+                <li>Cold Coffee - Chilled creamy coffee - ₹120</li>
+                <li>Fresh Lime Soda - Refreshing lime drink - ₹80</li>
+                <li>Mango Shake - Fresh mango milkshake - ₹130</li>
+            </ul>
+
+            <h3>Menu Price List</h3>
+
+            <table border="1">
+                <caption>Our Popular Items</caption>
+
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Paneer Tikka</td>
+                        <td>Starter</td>
+                        <td>₹180</td>
+                    </tr>
+                    <tr>
+                        <td>Paneer Butter Masala</td>
+                        <td>Main Course</td>
+                        <td>₹250</td>
+                    </tr>
+                    <tr>
+                        <td>Gulab Jamun</td>
+                        <td>Dessert</td>
+                        <td>₹100</td>
+                    </tr>
+                    <tr>
+                        <td>Cold Coffee</td>
+                        <td>Beverage</td>
+                        <td>₹120</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
+        <section id="offers">
+            <h2>Special Offers</h2>
+
+            <ul>
+                <li> weekday offered →Enjoy our special weekend meal with selected dishes at an amazing price.</li>
+                <li>Student Discount → Students get 15% off on selected meals with a valid student ID.</li>
+                <li>Family Combo → Enjoy a delicious family meal for four people at just ₹699.</li>
+            </ul>
+        </section>
+        <section id="gallery">
+            <figure>
+                <img src="food/dinig area.jpeg" alt="dinnig area" height="150" width="150">
+                <figcaption>special dinnnig area</figcaption>
+            </figure>
+            <figure>
+                <img src="food/chef.jpeg" alt="hotal chef" height="150" width="150">
+                <figcaption>Restaurant chef</figcaption>
+            </figure>
+            <figure>
+                <img src="food/Pizza.jpeg" alt="pizza" height="150" width="150">
+                <figcaption>famous dish</figcaption>
+            </figure>
+            <figure>
+                <img src="food/panirtikka.jpeg" alt="paneer tikka" height="150" width="150">
+                <figcaption>paneer tikka</figcaption>
+            </figure>
+        </section>
+        <section id="about">
+            <h2>About Our Restaurant</h2>
+
+            <h3>Our History</h3>
+            <p>
+                Ashvendra Restaurant was started with the goal of serving
+                fresh, delicious, and affordable food.
+            </p>
+
+            <h3>Our Chef</h3>
+            <p>
+                Chef Rahul is an experienced chef who specializes in
+                Indian and continental cuisine.
+            </p>
+
+            <h3>Our Specialty</h3>
+            <ul>
+                <li>Paneer Tikka</li>
+                <li>Paneer Butter Masala</li>
+                <li>Veg Biryani</li>
+                <li>Chocolate Brownie</li>
+            </ul>
+
+            <h3>Opening Hours</h3>
+            <ul>
+                <li>Monday - Friday: 10:00 AM - 10:00 PM</li>
+                <li>Saturday - Sunday: 9:00 AM - 11:00 PM</li>
+            </ul>
+        </section>
+        <section id="reservation">
+            <h2>Book a Table</h2>
+            <label for="nm">Name: </label>
+            <input type="text" id="nm" placeholder="Enter your name" required><br>
+            <label for="em">Email: </label>
+            <input type="email" id="em" placeholder="Enter your email" required><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" maxlength="10" required placeholder="phonenumber"><br>
+            <label for="d">Date: </label>
+            <input type="date" id="d" name="date" required><br>
+            <label for="t">Time :</label>
+            <input type="time" id="t"  name="time" required><br>
+            <label for="nu">Number of Guestes: </label>
+            <input type="number" id="nu" name="Number_of_Gueste" required min="1"><br>
+
+            </section>
+
     </main>
+</body>
 
-
-    </body>
-    </html>
+</html>
